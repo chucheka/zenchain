@@ -6,12 +6,6 @@ Zenchain is a hands-on demo project that walks through the core mechanics of a b
 
 ---
 
-## Suggested Name: **ChainForge**
-
-`zenchain` works, but **ChainForge** better captures the spirit of the project — you are *forging* a blockchain from raw materials, hammering out each concept by hand. It signals to readers that this is a place where blockchains are built, not just used.
-
----
-
 ## What You Will Learn
 
 - How a blockchain ledger tracks account **balances**
