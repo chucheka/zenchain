@@ -19,8 +19,8 @@ func main() {
 		database.Hash{},
 		uint64(time.Now().Unix()),
 		[]database.Tx{
-			database.NewTx("andrej", "andrej", 3, ""),
-			database.NewTx("andrej", "andrej", 700, "reward"),
+			database.NewTx("smith", "smith", 3, ""),
+			database.NewTx("smith", "smith", 700, "reward"),
 		},
 	)
 
@@ -31,12 +31,12 @@ func main() {
 		block0hash,
 		uint64(time.Now().Unix()),
 		[]database.Tx{
-			database.NewTx("andrej", "babayaga", 2000, ""),
-			database.NewTx("andrej", "andrej", 100, "reward"),
-			database.NewTx("babayaga", "andrej", 1, ""),
-			database.NewTx("babayaga", "caesar", 1000, ""),
-			database.NewTx("babayaga", "andrej", 50, ""),
-			database.NewTx("andrej", "andrej", 600, "reward"),
+			database.NewTx("smith", "ola", 2000, ""),
+			database.NewTx("smith", "smith", 100, "reward"),
+			database.NewTx("ola", "smith", 1, ""),
+			database.NewTx("ola", "caesar", 1000, ""),
+			database.NewTx("ola", "smith", 50, ""),
+			database.NewTx("smith", "smith", 600, "reward"),
 		},
 	)
 
